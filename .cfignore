@@ -1,0 +1,29 @@
+# ---- Tuning pipeline (Python) ----
+tuning/
+!tuning/best_params.json   # allow best_params.json to be pushed (if needed)
+
+# ---- Local training data ----
+training/
+*.csv
+*.json
+
+# ---- Product master local files ----
+ProductMaster.csv
+*.xlsx
+
+# ---- Node modules (CF builds them automatically) ----
+node_modules/
+
+# ---- Logs & Temp ----
+logs/
+*.log
+.DS_Store
+tmp/
+.env
+
+# ---- Local dev config ----
+config/default-env.json
+
+# ---- VS Code and IDE files ----
+.vscode/
+.idea/
