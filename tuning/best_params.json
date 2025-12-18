@@ -1,0 +1,13 @@
+{
+  "threshold": 0.55,
+  "weights": {
+    "token": 0.35,
+    "jaccard": 0.15,
+    "dice": 0.10,
+    "cosine": 0.25,
+    "levenshtein": 0.15
+  },
+  "invertedIndex": {
+    "minDocFreq": 1
+  }
+}

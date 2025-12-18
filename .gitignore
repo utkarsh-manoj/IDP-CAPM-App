@@ -14,7 +14,6 @@ target/
 .vscode/
 
 .env
-tuning/best_params.json
 srv/utils/__cache/*
 
 
